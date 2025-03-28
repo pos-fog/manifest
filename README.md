@@ -8,13 +8,13 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 To initialize your local repository, use command:
 
 ```bash
-repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fifteen --git-lfs
+repo init -u https://github.com/pos-fog/manifest.git -b fifteen --git-lfs
 ```
 
 Then sync up:
 
 ```bash
-repo sync
+repo sync -c -j10 --optimized-fetch
 ```
 
 ## Building the System
