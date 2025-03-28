@@ -12,10 +12,6 @@
   <remote  name="pos-fog"
            fetch="https://github.com/pos-fog"
            revision="refs/heads/fifteen" />
-           
-  <remote  name="pixelage"
-           fetch="https://github.com/ProjectPixelage"
-           revision="refs/heads/15" />
 
   <!-- AOSP additions -->
   <project path="bionic" name="bionic" groups="pdk" remote="PixelOS" />
@@ -43,7 +39,7 @@
   <!-- Custom vendor additions -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="PixelOS" />
   <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="PixelOS" />
-  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="pixelage" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="pos-fog" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="PixelOS" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="PixelOS" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pos-fog" />
