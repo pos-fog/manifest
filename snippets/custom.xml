@@ -28,7 +28,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="PixelOS" />
+  <project path="external/lz4" name="external_lz4" remote="pos-fog" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="pos-fog" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pos-fog" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="PixelOS" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="pos-fog" />
