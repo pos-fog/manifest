@@ -43,7 +43,7 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="pos-fog" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="PixelOS" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="PixelOS" />
-  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pos-fog" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="PixelOS" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pos-fog" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
   <project path="vendor/extras" name="vendor_extras" remote="pos-fog" />
