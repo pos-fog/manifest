@@ -81,7 +81,9 @@
   <remove-project name="platform/system/core" />
 
   <!-- lineage.xml -->
+  <remove-project name="platform/art" />
   <remove-project name="platform/build/blueprint" />
+  <remove-project name="platform/build/release" />
   <remove-project name="platform/bootable/deprecated-ota" />
   <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/cronet" />
@@ -114,8 +116,10 @@
   <remove-project name="platform/hardware/st/nfc" />
   <remove-project name="kernel/configs" />
   <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/NetworkStack" />
+  <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/common" />
