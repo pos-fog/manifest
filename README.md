@@ -8,13 +8,13 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 To initialize your local repository, use command:
 
 ```bash
-repo init -u https://github.com/PixelOS-AOSP/manifest.git -b sixteen --git-lfs
+repo init -u https://github.com/pos-fog/manifest.git -b sixteen --git-lfs
 ```
 
 Then sync up:
 
 ```bash
-repo sync
+repo sync -j14 -c --optimized-fetch --no-clone-bundle --no-tags
 ```
 
 ## Building the System
@@ -28,7 +28,7 @@ Initialize the ROM environment with the envsetup.sh script.
 Lunch your device after cloning all device sources if needed.
 
 ```bash
-lunch aosp_devicecodename-aosp_target_release-buildtype
+breakfast devicecodename
 ```
 
 Start compilation
