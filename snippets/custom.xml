@@ -46,7 +46,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="PixelOS" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pos-fog" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
-  <project path="vendor/extras" name="vendor_extras" remote="pos-fog" />
+  <project path="vendor/additional-prebuilts" name="vendor_additional-prebuilts" remote="pos-fog" />
   <project path="vendor/gms" name="vendor_gms-15" clone-depth="1" remote="PixelOS-Gitlab" />
   <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="PixelOS" />
 
