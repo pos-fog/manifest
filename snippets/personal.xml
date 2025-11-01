@@ -4,6 +4,9 @@
 
     <project path="bootable/recovery" name="pos-fog/android_bootable_recovery" groups="pdk" remote="personal" revision="sixteen" />
     <project path="device/lineage/sepolicy" name="alternoegraha/android_device_lineage_sepolicy" remote="personal" revision="lineage-23.0" />
+    <project path="packages/apps/Settings" name="pos-fog/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="personal" revision="sixteen" />
+    <project path="packages/modules/Connectivity" name="pos-fog/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="personal" revision="sixteen" />
+    <project path="system/bpf" name="alternoegraha/lineage_system_bpf" groups="pdk" remote="personal" revision="lineage-23.0" />
     <project path="system/sepolicy" name="alternoegraha/lineage_system_sepolicy" groups="pdk" remote="personal" revision="lineage-23.0" />
     <project path="vendor/lineage" name="pos-fog/android_vendor_lineage" remote="personal" revision="sixteen"/>
 </manifest>
