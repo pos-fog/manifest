@@ -2,7 +2,6 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineageos" />
   <project path="external/bash" name="android_external_bash" remote="lineageos" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineageos" />
   <project path="external/htop" name="android_external_htop" remote="lineageos" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="personal" fetch="https://github.com/" />
+
+    <project path="bootable/recovery" name="pos-fog/android_bootable_recovery" groups="pdk" remote="personal" revision="sixteen" />
+    <project path="device/lineage/sepolicy" name="alternoegraha/android_device_lineage_sepolicy" remote="personal" revision="lineage-23.0" />
+    <project path="system/sepolicy" name="alternoegraha/lineage_system_sepolicy" groups="pdk" remote="personal" revision="lineage-23.0" />
+    <project path="vendor/lineage" name="pos-fog/android_vendor_lineage" remote="personal" revision="sixteen"/>
+</manifest>
