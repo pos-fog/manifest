@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="pos-fog" fetch="https://github.com/" revision="sixteen-qpr2" />
+    <remote name="lineage-fog" fetch="https://github.com/" revision="lineage-23.2" />
+
+    <project path="bootable/recovery" name="pos-fog/android_bootable_recovery" groups="pdk" remote="pos-fog" />
+    <project path="packages/apps/Settings" name="pos-fog/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="pos-fog" />
+    <project path="vendor/custom" name="pos-fog/android_vendor_custom" remote="pos-fog" />
+    <project path="vendor/lineage" name="pos-fog/android_vendor_lineage" remote="pos-fog" />
+
+    <project path="device/lineage/sepolicy" name="heya-silly-uwu/android_device_lineage_sepolicy" remote="lineage-fog" />
+    <project path="system/logging" name="heya-silly-uwu/lineage_system_logging" groups="pdk" remote="lineage-fog" />
+    <project path="system/sepolicy" name="heya-silly-uwu/lineage_system_sepolicy" groups="pdk" remote="lineage-fog" />
+</manifest>
