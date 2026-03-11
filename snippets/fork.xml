@@ -4,6 +4,7 @@
     <remote name="lineage-fog" fetch="https://github.com/" revision="lineage-23.2" />
 
     <project path="bootable/recovery" name="pos-fog/android_bootable_recovery" groups="pdk" remote="pos-fog" />
+    <project path="frameworks/base" name="pos-fog/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="pos-fog" />
     <project path="packages/apps/Settings" name="pos-fog/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="pos-fog" />
     <project path="vendor/custom" name="pos-fog/android_vendor_custom" remote="pos-fog" />
     <project path="vendor/lineage" name="pos-fog/android_vendor_lineage" remote="pos-fog" />
