@@ -1,4 +1,4 @@
-# PixelOS
+# PixelOS (personal fork edition)
 
 ## Getting Started
 
@@ -8,13 +8,13 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 To initialize your local repository, run:
 
 ```bash
-repo init -u https://github.com/PixelOS-AOSP/android_manifest.git -b sixteen-qpr2 --git-lfs
+repo init -u https://github.com/pos-fog/android_manifest.git -b sixteen-qpr2 --git-lfs --depth=1
 ```
 
 Then, sync the repository:
 
 ```bash
-repo sync
+repo sync --force-sync --no-clone-bundle --no-tags --prune
 ```
 
 ## Building the System
