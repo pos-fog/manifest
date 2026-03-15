@@ -8,7 +8,7 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 To initialize your local repository, run:
 
 ```bash
-repo init -u https://github.com/pos-fog/android_manifest.git -b sixteen-qpr2 --git-lfs --depth=1
+repo init -u https://github.com/pos-fog/manifest.git -b sixteen-qpr2 --git-lfs --depth=1
 ```
 
 Then, sync the repository:
